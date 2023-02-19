@@ -4,7 +4,9 @@ import MyComponent from './example/mycomponent';
 
 function App() {
   return (
+
     <div className="App">
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,7 +20,8 @@ function App() {
         >
           Learn React
         </a>
-        <MyComponent></MyComponent>
+
+        <MyComponent />
       </header>
     </div>
   );
